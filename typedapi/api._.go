@@ -23,7 +23,7 @@
 package typedapi
 
 import (
-	"github.com/elastic/elastic-transport-go/v8/elastictransport"
+	"github.com/smcdonald45/elastic-transport-go/v8/elastictransport"
 	async_search_delete "github.com/elastic/go-elasticsearch/v8/typedapi/asyncsearch/delete"
 	async_search_get "github.com/elastic/go-elasticsearch/v8/typedapi/asyncsearch/get"
 	async_search_status "github.com/elastic/go-elasticsearch/v8/typedapi/asyncsearch/status"

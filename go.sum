@@ -1,2 +1,2 @@
-github.com/elastic/elastic-transport-go/v8 v8.0.0-20211216131617-bbee439d559c h1:onA2RpIyeCPvYAj1LFYiiMTrSpqVINWMfYFRS7lofJs=
-github.com/elastic/elastic-transport-go/v8 v8.0.0-20211216131617-bbee439d559c/go.mod h1:87Tcz8IVNe6rVSLdBux1o/PEItLtyabHU3naC7IoqKI=
+github.com/smcdonald45/elastic-transport-go/v8 v8.0.0-20220921081215-35aa42c6d5a6 h1:bxdIZQSjsJIYTLqiN33RtMUIstmr+eX4BaoxKpdIwM8=
+github.com/smcdonald45/elastic-transport-go/v8 v8.0.0-20220921081215-35aa42c6d5a6/go.mod h1:yiBIaMLuPIjvU8mnNajick6HlAoKFgobul6qFq63s28=

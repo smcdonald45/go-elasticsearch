@@ -28,8 +28,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/elastic/elastic-transport-go/v8/elastictransport"
 	"github.com/elastic/go-elasticsearch/v8"
+	"github.com/smcdonald45/elastic-transport-go/v8/elastictransport"
 )
 
 func init() {

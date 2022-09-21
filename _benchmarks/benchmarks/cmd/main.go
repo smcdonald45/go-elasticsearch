@@ -31,8 +31,8 @@ import (
 	"github.com/fatih/color"
 	"github.com/montanaflynn/stats"
 
-	"github.com/elastic/elastic-transport-go/v8/elastictransport"
 	"github.com/elastic/go-elasticsearch/v8"
+	"github.com/smcdonald45/elastic-transport-go/v8/elastictransport"
 
 	"github.com/elastic/go-elasticsearch/v8/benchmarks"
 	"github.com/elastic/go-elasticsearch/v8/benchmarks/runner"

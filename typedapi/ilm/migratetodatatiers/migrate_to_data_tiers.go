@@ -35,7 +35,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/elastic/elastic-transport-go/v8/elastictransport"
+	"github.com/smcdonald45/elastic-transport-go/v8/elastictransport"
 )
 
 // ErrBuildPath is returned in case of missing parameters within the build of the request.

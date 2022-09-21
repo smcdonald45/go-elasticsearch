@@ -44,7 +44,6 @@ func init() {
 }
 
 // Generator represents the "gentests" generator.
-//
 type Generator struct {
 	b bytes.Buffer
 
@@ -52,7 +51,6 @@ type Generator struct {
 }
 
 // Output returns the generator output.
-//
 func (g *Generator) Output() (io.Reader, error) {
 	name := g.TestSuite.Name()
 	if g.TestSuite.Type == "xpack" {
@@ -121,7 +119,6 @@ func (g *Generator) Output() (io.Reader, error) {
 }
 
 // OutputFormatted returns a formatted generator output.
-//
 func (g *Generator) OutputFormatted() (io.Reader, error) {
 	out, err := g.Output()
 	if err != nil {
@@ -222,7 +219,7 @@ import (
 
 	"github.com/elastic/go-elasticsearch/v8"
 	"github.com/elastic/go-elasticsearch/v8/esapi"
-	"github.com/elastic/elastic-transport-go/v8/elastictransport"
+	"github.com/smcdonald45/elastic-transport-go/v8/elastictransport"
 )
 
 var (
@@ -306,7 +303,6 @@ _ = recoverPanic
 }
 
 // Reference: https://github.com/elastic/elasticsearch/blob/master/test/framework/src/main/java/org/elasticsearch/test/rest/ESRestTestCase.java
-//
 func (g *Generator) genCommonSetup() {
 	g.w(`
 	// ----- Common Setup -------------------------------------------------------------
@@ -488,7 +484,6 @@ func (g *Generator) genCommonSetup() {
 
 // Reference: https://github.com/elastic/elasticsearch/blob/master/x-pack/plugin/src/test/java/org/elasticsearch/xpack/test/rest/XPackRestIT.java
 // Reference: https://github.com/elastic/elasticsearch/blob/master/x-pack/plugin/core/src/test/java/org/elasticsearch/xpack/core/ml/integration/MlRestTestStateCleaner.java
-//
 func (g *Generator) genXPackSetup() {
 	g.w(`
 		// ----- XPack Setup -------------------------------------------------------------
