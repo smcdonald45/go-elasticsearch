@@ -23,9 +23,9 @@
 package types
 
 import (
-	"github.com/elastic/go-elasticsearch/v8/typedapi/types/enums/stringdistance"
-	"github.com/elastic/go-elasticsearch/v8/typedapi/types/enums/suggestmode"
-	"github.com/elastic/go-elasticsearch/v8/typedapi/types/enums/suggestsort"
+	"github.com/smcdonald45/go-elasticsearch/v8/typedapi/types/enums/stringdistance"
+	"github.com/smcdonald45/go-elasticsearch/v8/typedapi/types/enums/suggestmode"
+	"github.com/smcdonald45/go-elasticsearch/v8/typedapi/types/enums/suggestsort"
 )
 
 // TermSuggester type.

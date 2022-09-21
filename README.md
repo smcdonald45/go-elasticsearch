@@ -29,7 +29,7 @@ It's possible to use multiple versions of the client in a single project:
     // main.go
     import (
       elasticsearch7 "github.com/elastic/go-elasticsearch/v7"
-      elasticsearch8 "github.com/elastic/go-elasticsearch/v8"
+      elasticsearch8 "github.com/smcdonald45/go-elasticsearch/v8"
     )
     // ...
     es7, _ := elasticsearch7.NewDefaultClient()
@@ -66,7 +66,7 @@ cat > main.go <<-END
   import (
     "log"
 
-    "github.com/elastic/go-elasticsearch/v8"
+    "github.com/smcdonald45/go-elasticsearch/v8"
   )
 
   func main() {
@@ -197,7 +197,7 @@ import (
   "strings"
   "sync"
 
-  "github.com/elastic/go-elasticsearch/v8"
+  "github.com/smcdonald45/go-elasticsearch/v8"
   "github.com/elastic/go-elasticsearch/v8/esapi"
 )
 

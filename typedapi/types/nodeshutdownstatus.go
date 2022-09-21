@@ -23,8 +23,8 @@
 package types
 
 import (
-	"github.com/elastic/go-elasticsearch/v8/typedapi/types/enums/shutdownstatus"
-	"github.com/elastic/go-elasticsearch/v8/typedapi/types/enums/shutdowntype"
+	"github.com/smcdonald45/go-elasticsearch/v8/typedapi/types/enums/shutdownstatus"
+	"github.com/smcdonald45/go-elasticsearch/v8/typedapi/types/enums/shutdowntype"
 )
 
 // NodeShutdownStatus type.

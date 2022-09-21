@@ -36,7 +36,7 @@ import (
 
 	"github.com/smcdonald45/elastic-transport-go/v8/elastictransport"
 
-	"github.com/elastic/go-elasticsearch/v8/typedapi/types/enums/refresh"
+	"github.com/smcdonald45/go-elasticsearch/v8/typedapi/types/enums/refresh"
 )
 
 const (

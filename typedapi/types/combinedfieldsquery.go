@@ -23,8 +23,8 @@
 package types
 
 import (
-	"github.com/elastic/go-elasticsearch/v8/typedapi/types/enums/combinedfieldsoperator"
-	"github.com/elastic/go-elasticsearch/v8/typedapi/types/enums/combinedfieldszeroterms"
+	"github.com/smcdonald45/go-elasticsearch/v8/typedapi/types/enums/combinedfieldsoperator"
+	"github.com/smcdonald45/go-elasticsearch/v8/typedapi/types/enums/combinedfieldszeroterms"
 )
 
 // CombinedFieldsQuery type.

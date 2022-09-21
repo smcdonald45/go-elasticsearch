@@ -25,7 +25,7 @@ package types
 import (
 	"encoding/json"
 
-	"github.com/elastic/go-elasticsearch/v8/typedapi/types/enums/multivaluemode"
+	"github.com/smcdonald45/go-elasticsearch/v8/typedapi/types/enums/multivaluemode"
 )
 
 // GeoDecayFunction type.

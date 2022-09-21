@@ -23,9 +23,9 @@
 package types
 
 import (
-	"github.com/elastic/go-elasticsearch/v8/typedapi/types/enums/segmentsortmissing"
-	"github.com/elastic/go-elasticsearch/v8/typedapi/types/enums/segmentsortmode"
-	"github.com/elastic/go-elasticsearch/v8/typedapi/types/enums/segmentsortorder"
+	"github.com/smcdonald45/go-elasticsearch/v8/typedapi/types/enums/segmentsortmissing"
+	"github.com/smcdonald45/go-elasticsearch/v8/typedapi/types/enums/segmentsortmode"
+	"github.com/smcdonald45/go-elasticsearch/v8/typedapi/types/enums/segmentsortorder"
 )
 
 // IndexSegmentSort type.

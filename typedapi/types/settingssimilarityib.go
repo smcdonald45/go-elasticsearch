@@ -23,9 +23,9 @@
 package types
 
 import (
-	"github.com/elastic/go-elasticsearch/v8/typedapi/types/enums/ibdistribution"
-	"github.com/elastic/go-elasticsearch/v8/typedapi/types/enums/iblambda"
-	"github.com/elastic/go-elasticsearch/v8/typedapi/types/enums/normalization"
+	"github.com/smcdonald45/go-elasticsearch/v8/typedapi/types/enums/ibdistribution"
+	"github.com/smcdonald45/go-elasticsearch/v8/typedapi/types/enums/iblambda"
+	"github.com/smcdonald45/go-elasticsearch/v8/typedapi/types/enums/normalization"
 )
 
 // SettingsSimilarityIb type.

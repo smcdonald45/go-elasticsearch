@@ -22,8 +22,7 @@
 //
 // You can configure the settings with command line flags:
 //
-//     go run indexer.go --workers=8 --count=100000 --flush=1000000
-//
+//	go run indexer.go --workers=8 --count=100000 --flush=1000000
 package main
 
 import (
@@ -42,9 +41,9 @@ import (
 	"github.com/cenkalti/backoff/v4"
 	"github.com/dustin/go-humanize"
 
-	"github.com/elastic/go-elasticsearch/v8"
-	"github.com/elastic/go-elasticsearch/v8/esapi"
-	"github.com/elastic/go-elasticsearch/v8/esutil"
+	"github.com/smcdonald45/go-elasticsearch/v8"
+	"github.com/smcdonald45/go-elasticsearch/v8/esapi"
+	"github.com/smcdonald45/go-elasticsearch/v8/esutil"
 )
 
 type Article struct {

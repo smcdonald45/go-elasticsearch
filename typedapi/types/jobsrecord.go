@@ -23,9 +23,9 @@
 package types
 
 import (
-	"github.com/elastic/go-elasticsearch/v8/typedapi/types/enums/categorizationstatus"
-	"github.com/elastic/go-elasticsearch/v8/typedapi/types/enums/jobstate"
-	"github.com/elastic/go-elasticsearch/v8/typedapi/types/enums/memorystatus"
+	"github.com/smcdonald45/go-elasticsearch/v8/typedapi/types/enums/categorizationstatus"
+	"github.com/smcdonald45/go-elasticsearch/v8/typedapi/types/enums/jobstate"
+	"github.com/smcdonald45/go-elasticsearch/v8/typedapi/types/enums/memorystatus"
 )
 
 // JobsRecord type.

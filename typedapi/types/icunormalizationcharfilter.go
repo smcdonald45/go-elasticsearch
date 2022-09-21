@@ -23,8 +23,8 @@
 package types
 
 import (
-	"github.com/elastic/go-elasticsearch/v8/typedapi/types/enums/icunormalizationmode"
-	"github.com/elastic/go-elasticsearch/v8/typedapi/types/enums/icunormalizationtype"
+	"github.com/smcdonald45/go-elasticsearch/v8/typedapi/types/enums/icunormalizationmode"
+	"github.com/smcdonald45/go-elasticsearch/v8/typedapi/types/enums/icunormalizationtype"
 )
 
 // IcuNormalizationCharFilter type.

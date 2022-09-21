@@ -23,10 +23,10 @@
 package types
 
 import (
-	"github.com/elastic/go-elasticsearch/v8/typedapi/types/enums/phoneticencoder"
-	"github.com/elastic/go-elasticsearch/v8/typedapi/types/enums/phoneticlanguage"
-	"github.com/elastic/go-elasticsearch/v8/typedapi/types/enums/phoneticnametype"
-	"github.com/elastic/go-elasticsearch/v8/typedapi/types/enums/phoneticruletype"
+	"github.com/smcdonald45/go-elasticsearch/v8/typedapi/types/enums/phoneticencoder"
+	"github.com/smcdonald45/go-elasticsearch/v8/typedapi/types/enums/phoneticlanguage"
+	"github.com/smcdonald45/go-elasticsearch/v8/typedapi/types/enums/phoneticnametype"
+	"github.com/smcdonald45/go-elasticsearch/v8/typedapi/types/enums/phoneticruletype"
 )
 
 // PhoneticTokenFilter type.

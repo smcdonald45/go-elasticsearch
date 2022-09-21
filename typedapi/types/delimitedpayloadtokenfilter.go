@@ -23,7 +23,7 @@
 package types
 
 import (
-	"github.com/elastic/go-elasticsearch/v8/typedapi/types/enums/delimitedpayloadencoding"
+	"github.com/smcdonald45/go-elasticsearch/v8/typedapi/types/enums/delimitedpayloadencoding"
 )
 
 // DelimitedPayloadTokenFilter type.

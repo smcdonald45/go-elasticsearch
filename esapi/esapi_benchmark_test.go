@@ -25,8 +25,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/elastic/go-elasticsearch/v8"
-	"github.com/elastic/go-elasticsearch/v8/esapi"
+	"github.com/smcdonald45/go-elasticsearch/v8"
+	"github.com/smcdonald45/go-elasticsearch/v8/esapi"
 )
 
 // TODO(karmi): Refactor into a shared mock/testing package

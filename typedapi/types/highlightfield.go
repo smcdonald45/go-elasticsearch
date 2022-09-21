@@ -23,11 +23,11 @@
 package types
 
 import (
-	"github.com/elastic/go-elasticsearch/v8/typedapi/types/enums/boundaryscanner"
-	"github.com/elastic/go-elasticsearch/v8/typedapi/types/enums/highlighterfragmenter"
-	"github.com/elastic/go-elasticsearch/v8/typedapi/types/enums/highlighterorder"
-	"github.com/elastic/go-elasticsearch/v8/typedapi/types/enums/highlightertagsschema"
-	"github.com/elastic/go-elasticsearch/v8/typedapi/types/enums/highlightertype"
+	"github.com/smcdonald45/go-elasticsearch/v8/typedapi/types/enums/boundaryscanner"
+	"github.com/smcdonald45/go-elasticsearch/v8/typedapi/types/enums/highlighterfragmenter"
+	"github.com/smcdonald45/go-elasticsearch/v8/typedapi/types/enums/highlighterorder"
+	"github.com/smcdonald45/go-elasticsearch/v8/typedapi/types/enums/highlightertagsschema"
+	"github.com/smcdonald45/go-elasticsearch/v8/typedapi/types/enums/highlightertype"
 )
 
 // HighlightField type.

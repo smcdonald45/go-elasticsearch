@@ -26,8 +26,8 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/elastic/go-elasticsearch/v8/typedapi/types"
-	"github.com/elastic/go-elasticsearch/v8/typedapi/types/enums/conflicts"
+	"github.com/smcdonald45/go-elasticsearch/v8/typedapi/types"
+	"github.com/smcdonald45/go-elasticsearch/v8/typedapi/types/enums/conflicts"
 )
 
 // Request holds the request body struct for the package updatebyquery

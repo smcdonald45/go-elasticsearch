@@ -23,9 +23,9 @@
 package types
 
 import (
-	"github.com/elastic/go-elasticsearch/v8/typedapi/types/enums/scriptsorttype"
-	"github.com/elastic/go-elasticsearch/v8/typedapi/types/enums/sortmode"
-	"github.com/elastic/go-elasticsearch/v8/typedapi/types/enums/sortorder"
+	"github.com/smcdonald45/go-elasticsearch/v8/typedapi/types/enums/scriptsorttype"
+	"github.com/smcdonald45/go-elasticsearch/v8/typedapi/types/enums/sortmode"
+	"github.com/smcdonald45/go-elasticsearch/v8/typedapi/types/enums/sortorder"
 )
 
 // ScriptSort type.

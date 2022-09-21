@@ -22,14 +22,14 @@ package elasticsearch_test
 
 import (
 	"context"
+	"github.com/smcdonald45/go-elasticsearch/v8/esapi"
 	"io/ioutil"
 	"net/http"
 	"strconv"
 	"strings"
 	"testing"
 
-	"github.com/elastic/go-elasticsearch/v8"
-	"github.com/elastic/go-elasticsearch/v8/esapi"
+	"github.com/smcdonald45/go-elasticsearch/v8"
 )
 
 var defaultResponse = http.Response{

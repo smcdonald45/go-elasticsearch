@@ -37,7 +37,7 @@ import (
 
 	"github.com/smcdonald45/elastic-transport-go/v8/elastictransport"
 
-	"github.com/elastic/go-elasticsearch/v8/typedapi/types/enums/groupby"
+	"github.com/smcdonald45/go-elasticsearch/v8/typedapi/types/enums/groupby"
 )
 
 // ErrBuildPath is returned in case of missing parameters within the build of the request.

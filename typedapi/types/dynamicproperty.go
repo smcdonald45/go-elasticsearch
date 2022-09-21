@@ -23,11 +23,11 @@
 package types
 
 import (
-	"github.com/elastic/go-elasticsearch/v8/typedapi/types/enums/dynamicmapping"
-	"github.com/elastic/go-elasticsearch/v8/typedapi/types/enums/indexoptions"
-	"github.com/elastic/go-elasticsearch/v8/typedapi/types/enums/onscripterror"
-	"github.com/elastic/go-elasticsearch/v8/typedapi/types/enums/termvectoroption"
-	"github.com/elastic/go-elasticsearch/v8/typedapi/types/enums/timeseriesmetrictype"
+	"github.com/smcdonald45/go-elasticsearch/v8/typedapi/types/enums/dynamicmapping"
+	"github.com/smcdonald45/go-elasticsearch/v8/typedapi/types/enums/indexoptions"
+	"github.com/smcdonald45/go-elasticsearch/v8/typedapi/types/enums/onscripterror"
+	"github.com/smcdonald45/go-elasticsearch/v8/typedapi/types/enums/termvectoroption"
+	"github.com/smcdonald45/go-elasticsearch/v8/typedapi/types/enums/timeseriesmetrictype"
 )
 
 // DynamicProperty type.

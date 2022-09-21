@@ -26,11 +26,11 @@ import (
 	"crypto/tls"
 	"encoding/json"
 	"fmt"
-	"github.com/elastic/go-elasticsearch/v8/typedapi/core/search"
-	"github.com/elastic/go-elasticsearch/v8/typedapi/indices/create"
-	"github.com/elastic/go-elasticsearch/v8/typedapi/types"
-	"github.com/elastic/go-elasticsearch/v8/typedapi/types/enums/refresh"
-	"github.com/elastic/go-elasticsearch/v8/typedapi/types/enums/sortorder"
+	"github.com/smcdonald45/go-elasticsearch/v8/typedapi/core/search"
+	"github.com/smcdonald45/go-elasticsearch/v8/typedapi/indices/create"
+	"github.com/smcdonald45/go-elasticsearch/v8/typedapi/types"
+	"github.com/smcdonald45/go-elasticsearch/v8/typedapi/types/enums/refresh"
+	"github.com/smcdonald45/go-elasticsearch/v8/typedapi/types/enums/sortorder"
 	"log"
 	"net"
 	"net/http"
@@ -42,9 +42,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/elastic/go-elasticsearch/v8"
-	"github.com/elastic/go-elasticsearch/v8/esapi"
 	"github.com/smcdonald45/elastic-transport-go/v8/elastictransport"
+	"github.com/smcdonald45/go-elasticsearch/v8"
+	"github.com/smcdonald45/go-elasticsearch/v8/esapi"
 )
 
 func TestClientTransport(t *testing.T) {

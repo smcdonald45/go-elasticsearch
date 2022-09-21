@@ -23,8 +23,8 @@
 package types
 
 import (
-	"github.com/elastic/go-elasticsearch/v8/typedapi/types/enums/operator"
-	"github.com/elastic/go-elasticsearch/v8/typedapi/types/enums/textquerytype"
+	"github.com/smcdonald45/go-elasticsearch/v8/typedapi/types/enums/operator"
+	"github.com/smcdonald45/go-elasticsearch/v8/typedapi/types/enums/textquerytype"
 )
 
 // QueryStringQuery type.

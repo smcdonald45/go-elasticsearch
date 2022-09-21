@@ -25,7 +25,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/elastic/go-elasticsearch/v8"
+	"github.com/smcdonald45/go-elasticsearch/v8"
 )
 
 var (

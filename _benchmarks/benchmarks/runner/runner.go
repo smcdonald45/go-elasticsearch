@@ -25,9 +25,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/elastic/go-elasticsearch/v8"
-	"github.com/elastic/go-elasticsearch/v8/esapi"
-	"github.com/elastic/go-elasticsearch/v8/esutil"
+	"github.com/smcdonald45/go-elasticsearch/v8"
+	"github.com/smcdonald45/go-elasticsearch/v8/esapi"
+	"github.com/smcdonald45/go-elasticsearch/v8/esutil"
 )
 
 var (
@@ -51,7 +51,6 @@ func init() {
 }
 
 // NewRunner returns new benchmarking runner.
-//
 func NewRunner(cfg Config) (*Runner, error) {
 	if err := validateConfig(cfg); err != nil {
 		return nil, err
@@ -78,7 +77,6 @@ func NewRunner(cfg Config) (*Runner, error) {
 }
 
 // Runner represents the benchmarking runner.
-//
 type Runner struct {
 	config  Config
 	stats   []Stats
@@ -86,7 +84,6 @@ type Runner struct {
 }
 
 // Config represents configuration for Runner.
-//
 type Config struct {
 	BuildID string
 
@@ -115,13 +112,11 @@ type Config struct {
 }
 
 // ConfigOS describes OS.
-//
 type ConfigOS struct {
 	Family string
 }
 
 // ConfigService describes service.
-//
 type ConfigService struct {
 	Type    string
 	Name    string
@@ -130,18 +125,15 @@ type ConfigService struct {
 }
 
 // ConfigGit describes Git.
-//
 type ConfigGit struct {
 	Branch string
 	Commit string
 }
 
 // RunnerFunc represents the runner operation.
-//
 type RunnerFunc func(int, Config) (*esapi.Response, error)
 
 // Stats represents statistics about a single run.
-//
 type Stats struct {
 	Start              time.Time
 	Duration           time.Duration
@@ -150,18 +142,15 @@ type Stats struct {
 }
 
 // Error describes an error occurring in during run.
-//
 type Error struct {
 	err  string
 	errs []error
 }
 
 // Error returns string message for error.
-//
 func (e *Error) Error() string { return e.err }
 
 // Errs returns the underlying errors.
-//
 func (e *Error) Errs() string {
 	var errStrings []string
 	for _, e := range e.errs {
@@ -171,7 +160,6 @@ func (e *Error) Errs() string {
 }
 
 // Run executes the benchmark runs.
-//
 func (r *Runner) Run() error {
 	if err := validateConfig(r.config); err != nil {
 		return err
@@ -223,19 +211,16 @@ func (r *Runner) Run() error {
 }
 
 // Stats returns statistics about the run.
-//
 func (r *Runner) Stats() []Stats {
 	return r.stats
 }
 
 // Errs returns the runner errors.
-//
 func (r *Runner) Errs() []error {
 	return errs
 }
 
 // SaveStats stores runner statistics in Elasticsearch.
-//
 func (r *Runner) SaveStats() error {
 	var errs []error
 

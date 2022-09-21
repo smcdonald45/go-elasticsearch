@@ -23,7 +23,7 @@
 package types
 
 import (
-	"github.com/elastic/go-elasticsearch/v8/typedapi/types/enums/waitforactiveshardoptions"
+	"github.com/smcdonald45/go-elasticsearch/v8/typedapi/types/enums/waitforactiveshardoptions"
 )
 
 // WaitForActiveShards holds the union for the following types:

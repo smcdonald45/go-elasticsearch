@@ -25,8 +25,8 @@ package types
 import (
 	"encoding/json"
 
-	"github.com/elastic/go-elasticsearch/v8/typedapi/types/enums/geodistancetype"
-	"github.com/elastic/go-elasticsearch/v8/typedapi/types/enums/geovalidationmethod"
+	"github.com/smcdonald45/go-elasticsearch/v8/typedapi/types/enums/geodistancetype"
+	"github.com/smcdonald45/go-elasticsearch/v8/typedapi/types/enums/geovalidationmethod"
 )
 
 // GeoDistanceQuery type.

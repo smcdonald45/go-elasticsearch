@@ -23,10 +23,10 @@
 package types
 
 import (
-	"github.com/elastic/go-elasticsearch/v8/typedapi/types/enums/fieldsortnumerictype"
-	"github.com/elastic/go-elasticsearch/v8/typedapi/types/enums/fieldtype"
-	"github.com/elastic/go-elasticsearch/v8/typedapi/types/enums/sortmode"
-	"github.com/elastic/go-elasticsearch/v8/typedapi/types/enums/sortorder"
+	"github.com/smcdonald45/go-elasticsearch/v8/typedapi/types/enums/fieldsortnumerictype"
+	"github.com/smcdonald45/go-elasticsearch/v8/typedapi/types/enums/fieldtype"
+	"github.com/smcdonald45/go-elasticsearch/v8/typedapi/types/enums/sortmode"
+	"github.com/smcdonald45/go-elasticsearch/v8/typedapi/types/enums/sortorder"
 )
 
 // FieldSort type.

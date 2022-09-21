@@ -23,8 +23,8 @@
 package types
 
 import (
-	"github.com/elastic/go-elasticsearch/v8/typedapi/types/enums/licensestatus"
-	"github.com/elastic/go-elasticsearch/v8/typedapi/types/enums/licensetype"
+	"github.com/smcdonald45/go-elasticsearch/v8/typedapi/types/enums/licensestatus"
+	"github.com/smcdonald45/go-elasticsearch/v8/typedapi/types/enums/licensetype"
 )
 
 // LicenseInformation type.

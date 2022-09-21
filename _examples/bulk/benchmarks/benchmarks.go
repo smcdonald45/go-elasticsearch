@@ -43,11 +43,11 @@ import (
 	"github.com/valyala/fasthttp"
 
 	"github.com/smcdonald45/elastic-transport-go/v8/elastictransport"
-	"github.com/elastic/go-elasticsearch/v8"
-	"github.com/elastic/go-elasticsearch/v8/esutil"
+	"github.com/smcdonald45/go-elasticsearch/v8"
+	"github.com/smcdonald45/go-elasticsearch/v8/esutil"
 
-	"github.com/elastic/go-elasticsearch/v8/_examples/bulk/benchmarks/model"
-	"github.com/elastic/go-elasticsearch/v8/_examples/bulk/benchmarks/runner"
+	"github.com/smcdonald45/go-elasticsearch/v8/_examples/bulk/benchmarks/model"
+	"github.com/smcdonald45/go-elasticsearch/v8/_examples/bulk/benchmarks/runner"
 )
 
 type humanBytes uint64

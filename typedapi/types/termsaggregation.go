@@ -23,9 +23,9 @@
 package types
 
 import (
-	"github.com/elastic/go-elasticsearch/v8/typedapi/types/enums/missingorder"
-	"github.com/elastic/go-elasticsearch/v8/typedapi/types/enums/termsaggregationcollectmode"
-	"github.com/elastic/go-elasticsearch/v8/typedapi/types/enums/termsaggregationexecutionhint"
+	"github.com/smcdonald45/go-elasticsearch/v8/typedapi/types/enums/missingorder"
+	"github.com/smcdonald45/go-elasticsearch/v8/typedapi/types/enums/termsaggregationcollectmode"
+	"github.com/smcdonald45/go-elasticsearch/v8/typedapi/types/enums/termsaggregationexecutionhint"
 )
 
 // TermsAggregation type.

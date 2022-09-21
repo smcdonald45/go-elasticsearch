@@ -23,7 +23,7 @@
 package types
 
 import (
-	"github.com/elastic/go-elasticsearch/v8/typedapi/types/enums/result"
+	"github.com/smcdonald45/go-elasticsearch/v8/typedapi/types/enums/result"
 )
 
 // UpdateWriteResponseBase type.

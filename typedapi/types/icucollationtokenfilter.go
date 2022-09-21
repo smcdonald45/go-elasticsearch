@@ -23,10 +23,10 @@
 package types
 
 import (
-	"github.com/elastic/go-elasticsearch/v8/typedapi/types/enums/icucollationalternate"
-	"github.com/elastic/go-elasticsearch/v8/typedapi/types/enums/icucollationcasefirst"
-	"github.com/elastic/go-elasticsearch/v8/typedapi/types/enums/icucollationdecomposition"
-	"github.com/elastic/go-elasticsearch/v8/typedapi/types/enums/icucollationstrength"
+	"github.com/smcdonald45/go-elasticsearch/v8/typedapi/types/enums/icucollationalternate"
+	"github.com/smcdonald45/go-elasticsearch/v8/typedapi/types/enums/icucollationcasefirst"
+	"github.com/smcdonald45/go-elasticsearch/v8/typedapi/types/enums/icucollationdecomposition"
+	"github.com/smcdonald45/go-elasticsearch/v8/typedapi/types/enums/icucollationstrength"
 )
 
 // IcuCollationTokenFilter type.

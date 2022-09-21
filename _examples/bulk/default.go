@@ -23,14 +23,12 @@
 //
 // You can configure the number of documents and the batch size with command line flags:
 //
-//     go run default.go -count=10000 -batch=2500
+//	go run default.go -count=10000 -batch=2500
 //
 // The example intentionally doesn't use any abstractions or helper functions, to
 // demonstrate the low-level mechanics of working with the Bulk API: preparing
 // the meta+data payloads, sending the payloads in batches,
 // inspecting the error results, and printing a report.
-//
-//
 package main
 
 import (
@@ -46,8 +44,8 @@ import (
 
 	"github.com/dustin/go-humanize"
 
-	"github.com/elastic/go-elasticsearch/v8"
-	"github.com/elastic/go-elasticsearch/v8/esapi"
+	"github.com/smcdonald45/go-elasticsearch/v8"
+	"github.com/smcdonald45/go-elasticsearch/v8/esapi"
 )
 
 type Article struct {

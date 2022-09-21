@@ -23,8 +23,8 @@
 package types
 
 import (
-	"github.com/elastic/go-elasticsearch/v8/typedapi/types/enums/distanceunit"
-	"github.com/elastic/go-elasticsearch/v8/typedapi/types/enums/geodistancetype"
+	"github.com/smcdonald45/go-elasticsearch/v8/typedapi/types/enums/distanceunit"
+	"github.com/smcdonald45/go-elasticsearch/v8/typedapi/types/enums/geodistancetype"
 )
 
 // GeoDistanceAggregation type.

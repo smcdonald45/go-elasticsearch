@@ -21,7 +21,9 @@ import (
 	"encoding/base64"
 	"errors"
 	"fmt"
-	"github.com/elastic/go-elasticsearch/v8/typedapi"
+	"github.com/smcdonald45/go-elasticsearch/v8/esapi"
+	"github.com/smcdonald45/go-elasticsearch/v8/internal/version"
+	"github.com/smcdonald45/go-elasticsearch/v8/typedapi"
 	"net/http"
 	"net/url"
 	"os"
@@ -31,9 +33,6 @@ import (
 	"strings"
 	"sync"
 	"time"
-
-	"github.com/elastic/go-elasticsearch/v8/esapi"
-	"github.com/elastic/go-elasticsearch/v8/internal/version"
 
 	"github.com/smcdonald45/elastic-transport-go/v8/elastictransport"
 	tpversion "github.com/smcdonald45/elastic-transport-go/v8/elastictransport/version"
