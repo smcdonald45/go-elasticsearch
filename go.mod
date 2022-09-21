@@ -1,4 +1,4 @@
-module github.com/elastic/go-elasticsearch/v8
+module github.com/smcdonald45/go-elasticsearch/v8
 
 go 1.13
 
